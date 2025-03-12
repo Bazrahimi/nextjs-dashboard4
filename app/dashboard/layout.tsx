@@ -14,3 +14,15 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
 };
 
 export default DashboardLayout;
+
+/** why should we use the layout.
+ * Partial Rendering: on navigation, next.js only update the page component and layout will not re-render. 
+ * 
+ */
+
+/** Root Layout
+ * root layout is required for every next.js app.
+ * any UI in root layout will be shared across all page in our application.
+ * we can use the root layout to modify <html> and <body> tags, and add metadata.
+ * 
+ */
